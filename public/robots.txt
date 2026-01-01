@@ -1,0 +1,19 @@
+# robots.txt pour Hypnothérapeute
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /portail
+
+# Sitemap (à générer)
+# Sitemap: https://your-domain.com/sitemap.xml
+
+# Optimisation pour les moteurs de recherche
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /portail
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /portail
