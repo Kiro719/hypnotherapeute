@@ -1,0 +1,58 @@
+=====================================================
+📧 MES INFORMATIONS EMAIL À REMPLIR
+=====================================================
+
+✏️ NOTEZ VOS INFORMATIONS ICI :
+
+
+1️⃣ MON EMAIL GMAIL PROFESSIONNEL :
+
+   _____________________________________@gmail.com
+
+
+2️⃣ MON MOT DE PASSE D'APPLICATION (16 caractères) :
+
+   ____ ____ ____ ____
+
+
+3️⃣ CE QUE JE DOIS FAIRE ENSUITE :
+
+   ☐ Copier le fichier "env.example" 
+   ☐ Le renommer en ".env"
+   ☐ Ouvrir le fichier ".env"
+   ☐ Chercher les lignes SMTP_USER et SMTP_PASS
+   ☐ Remplacer par mes vraies infos
+   ☐ Sauvegarder
+   ☐ Lancer : npm run dev
+   ☐ Tester sur : http://localhost:5000/api/emails/test-connection
+
+
+=====================================================
+🎯 EXEMPLE DE CE QUE ÇA DOIT DONNER DANS LE .env
+=====================================================
+
+SMTP_USER=cabinet.hypno@gmail.com
+SMTP_PASS=abcd efgh ijkl mnop
+SMTP_FROM=cabinet.hypno@gmail.com
+
+
+=====================================================
+⚠️ ATTENTION
+=====================================================
+
+- SMTP_PASS = C'est le mot de passe d'APPLICATION (16 caractères)
+              PAS votre mot de passe Gmail normal !
+
+- Pour générer le mot de passe d'application :
+  https://myaccount.google.com/security
+  → "Mots de passe des applications"
+
+
+=====================================================
+
+
+
+
+
+
+
